@@ -1,3 +1,12 @@
+require "colorize"
+
+puts "MUAHAHA.  The dastardly unexpected end statement.\n".red
+puts "Do NOT try to solve this error by going one method at a time and looking for an 'end'.\n".red
+puts "Instead, comment out half of the bad file at a time until the error changes.  Keep narrowing down from there.".red
+puts "Try running ONLY the board.rb file to start.".red
+puts ""
+puts "Does this approach feel familiar?  The approach is a version of binary search.\n\n".red
+
 require_relative "board"
 
 class SudokuGame

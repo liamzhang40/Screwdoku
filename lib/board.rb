@@ -1,4 +1,4 @@
-require_relative "tile"
+require_relative "../tile"
 
 class Board
   def self.empty_grid

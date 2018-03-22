@@ -1,3 +1,5 @@
+require 'colorize'
+
 class Board
   def self.empty_grid
     Array.new(9) do
@@ -110,6 +112,7 @@ class Tile
     end
   end
 
+end
 class SudokuGame
   def self.from_file(filename)
     board = Board.from_file(filename)
